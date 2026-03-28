@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛒 E-commerce Experimento: IA Cursor
 
-## Getting Started
+Este es un proyecto de **E-commerce funcional** desarrollado como un experimento técnico para explorar el potencial de **Cursor** (AI Code Editor) en la creación de aplicaciones Fullstack modernas con Next.js.
 
-First, run the development server:
+La idea principal fue testear la velocidad de desarrollo y la precisión de la IA para integrar servicios externos complejos como pasarelas de pago y APIs de productos reales.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Tecnologías Utilizadas
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+| Categoría | Herramientas |
+| :--- | :--- |
+| **Framework** | [Next.js 14](https://nextjs.org/) (App Router) |
+| **Lenguaje** | [TypeScript](https://www.typescript.org/) |
+| **Estilos** | [Tailwind CSS](https://tailwindcss.com/) |
+| **Estado Global** | [Zustand](https://docs.pmnd.rs/zustand/) |
+| **Productos** | [DummyJSON API](https://dummyjson.com/) |
+| **Pagos** | [Mercado Pago SDK](https://www.mercadopago.com.ar/developers/) (Sandbox) |
+| **AI Editor** | [Cursor](https://cursor.com/) (Claude 3.5 Sonnet / GPT-4o) |
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🧠 El Experimento: Desarrollo Asistido por IA
 
-To learn more about Next.js, take a look at the following resources:
+A diferencia de un desarrollo tradicional, este proyecto se enfocó en el uso de **prompts estratégicos** y la iteración rápida con el asistente de Cursor. 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### ¿Qué aprendí en este proceso?
+1. **Arquitectura Rápida:** La IA es excelente para generar estructuras de carpetas y componentes base (como el Grid responsivo) en segundos.
+2. **Integración de APIs:** El flujo de autenticación y creación de preferencias con **Mercado Pago** se agilizó significativamente mediante el análisis de documentación en tiempo real.
+3. **Debugging:** Cursor ayudó a identificar rápidamente errores de permisos en el navegador (como los bloqueos de scripts de tracking) que suelen retrasar las integraciones de pago.
